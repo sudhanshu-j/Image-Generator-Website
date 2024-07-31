@@ -55,6 +55,8 @@ File Structure
 │
 ├── index.html
 │
+└── logo.png
+│
 └── README.md
 
 

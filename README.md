@@ -1,4 +1,5 @@
 Image Generator Website
+
 Overview
 
 This is a responsive image generator website built using HTML, CSS, and JavaScript. The application leverages the Unsplash API to fetch copyright-free images based on user input.

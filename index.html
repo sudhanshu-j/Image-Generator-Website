@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Title -->
+    <title>Image Generator</title>
+  </head>
+  <body>
+    <h1 class="title">Generate Images & Wallpapers</h1>
+
+    <form id="imageForm">
+      <input
+        class="input"
+        type="text"
+        id="search-box"
+        placeholder="Search here..."
+      />
+
+      <button class="search-btn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+
+    <div id="imageContainer"></div>
+
+    <button id="load-more-btn">
+      <i class="fa-solid fa-caret-down"></i> Load More
+    </button>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

@@ -2,6 +2,8 @@
 
 This project is an **Image Generator** web app that allows users to search and display images from **Unsplash** using their API. It also provides functionality to load more images dynamically as the user scrolls through the results. The app is responsive and designed to work on both desktop and mobile devices.
 
+---
+
 ## Features
 
 - **Search Functionality**: Users can search for images based on their query.
@@ -11,6 +13,8 @@ This project is an **Image Generator** web app that allows users to search and d
 - **Responsive Design**: The app is optimized for different screen sizes, including mobile and desktop.
 
 - **Image Links**: Each image is linked to its Unsplash page for more information.
+
+---
 
 ## Table of Contents
 
@@ -24,13 +28,19 @@ This project is an **Image Generator** web app that allows users to search and d
 
 - [Contributing](#contributing)
 
+---
 
 ## Technologies Used
 
 - **HTML5** - Structure of the web page.
+
 - **CSS3** - Styling and responsive design.
+
 - **JavaScript** - Fetching and displaying images using the Unsplash API.
+
 - **Unsplash API** - Source of the images.
+
+---
 
 ## Setup Instructions
 
@@ -77,6 +87,8 @@ You can open the project in any web browser directly by opening `index.html`:
 
 - Click "Load More" to load additional images.
 
+---
+
 ## Project Structure
 
 - The project has the following structure:
@@ -97,6 +109,8 @@ You can open the project in any web browser directly by opening `index.html`:
 └── README.md               # This README file
 ```
 
+---
+
 ### Key Files
 
 - **index.html**: This is the main HTML file where the structure of the app is defined. It includes a search form, an image container, and a "Load More" button.
@@ -105,25 +119,39 @@ You can open the project in any web browser directly by opening `index.html`:
 
 - **script.js**: Contains JavaScript code that handles fetching images from the Unsplash API based on the user's search input and displaying them in the image container.
 
+---
+
 ## How It Works
 
-#### 1. **User Search**:
+### 1. **User Search**:
+   
    - The user enters a search query in the input box and submits the form.
+   
    - The JavaScript code retrieves the input value and makes a request to the Unsplash API.
+   
    - The API returns a set of images based on the query.
 
-#### 2. **Displaying Images**:
+### 2. **Displaying Images**:
+   
    - The images are dynamically inserted into the page inside the `#imageContainer` element.
+   
    - Each image is wrapped in an anchor (`<a>`) tag, linking to the Unsplash page for that image.
 
-#### 3. **Pagination**:
+### 3. **Pagination**:
+   
    - After the initial results are displayed, the "Load More" button becomes visible.
+   
    - When clicked, it increments the `page` variable and fetches additional images from the API.
+   
    - This process continues as the user clicks "Load More".
 
-#### 4. **Responsive Design**:
+### 4. **Responsive Design**:
+   
    - The app adjusts its layout based on the screen size using CSS media queries.
+   
    - On smaller screens (like tablets or smartphones), the number of images displayed per row is reduced.
+
+---
 
 ## Contributing
 
@@ -147,5 +175,7 @@ Contributions to the project are welcome! You can contribute by:
    ```
 
 5. **Creating a pull request.**
+
+---
 
 Please ensure that any changes adhere to the project's coding style and pass any relevant tests (if applicable).
